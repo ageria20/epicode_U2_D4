@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Indie Flower", "sans-serif";
+}
+
+.board {
+  display: flex;
+  column-gap: 20px;
+  max-width: 1000px;
+  min-height: 50vh;
+  padding: 2rem;
+  background-color: rgb(128, 125, 125);
+  margin-inline: auto;
+}
+
+.task1 {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 140px;
+  background: rgb(191, 191, 191);
+  background: linear-gradient(
+    0deg,
+    rgba(191, 191, 191, 1) 0%,
+    rgba(253, 254, 205, 1) 19%
+  );
+  box-shadow: 37px 25px 27px -3px rgba(0, 0, 0, 0.1);
+  transform: rotate(-5deg);
+}
+
+.task1 h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.task1 p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.task2 {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 140px;
+  background: rgb(191, 191, 191);
+  background: linear-gradient(
+    0deg,
+    rgba(191, 191, 191, 1) 0%,
+    rgba(199, 246, 201, 1) 19%
+  );
+  box-shadow: 37px 25px 27px -3px rgba(0, 0, 0, 0.1);
+  transform: rotate(5deg);
+}
+
+.task2 h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.task2 p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.task3 {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 140px;
+  background: rgb(191, 191, 191);
+  background: linear-gradient(
+    0deg,
+    rgb(209, 208, 208) 0%,
+    rgba(198, 198, 243, 1) 19%
+  );
+  box-shadow: 37px 25px 27px -3px rgba(0, 0, 0, 0.1);
+  transform: rotate(-8deg);
+}
+
+.task3 h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.task3 p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.task4 {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 140px;
+  background: rgb(191, 191, 191);
+  background: linear-gradient(
+    0deg,
+    rgba(191, 191, 191, 1) 0%,
+    rgba(199, 246, 201, 1) 19%
+  );
+  box-shadow: 37px 25px 27px -3px rgba(3, 3, 3, 0.1);
+  transform: rotate(5deg);
+}
+
+.task4 h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.task4 p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
