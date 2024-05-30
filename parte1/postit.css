@@ -52,6 +52,10 @@ body {
   margin-top: 1rem;
 }
 
+.task1:hover {
+  transform: scale(1, 1);
+}
+
 .task2 {
   margin: 1rem;
   display: flex;
@@ -80,6 +84,10 @@ body {
 .task2 p {
   font-size: 1.2rem;
   margin-top: 1rem;
+}
+
+.task2:hover {
+  transform: scale(1, 1);
 }
 
 .task3 {
@@ -112,6 +120,10 @@ body {
   margin-top: 1rem;
 }
 
+.task3:hover {
+  transform: scale(1, 1);
+}
+
 .task4 {
   margin: 1rem;
   display: flex;
@@ -140,4 +152,15 @@ body {
 .task4 p {
   font-size: 1.2rem;
   margin-top: 1rem;
+}
+
+.task4:hover {
+  transform: scale(1, 1);
+}
+
+.task1,
+.task2,
+.task3,
+.task4 {
+  transition: scale 1s;
 }
