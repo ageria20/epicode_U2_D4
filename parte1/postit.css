@@ -159,21 +159,28 @@ body {
   transform: scale(1.2, 1.2);
 }
 
-.task1:hover,
-.task2:hover,
-.task3:hover,
-.task4:hover {
+.task1 {
   transition: transform 500ms;
+  animation: fadeIn 2500ms backwards 800ms;
+}
+.task2 {
+  transition: transform 500ms;
+  animation: fadeIn 3s backwards 300ms;
+}
+.task3 {
+  transition: transform 500ms;
+  animation: fadeIn 1s backwards 500ms;
 }
 
+.task4 {
+  transition: transform 500ms;
+  animation: fadeIn 4s backwards 1s;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: rotate(2deg);
-    transform: scale(1.2, 1.2);
   }
   to {
     opacity: 1;
-    transform: scale(0);
   }
 }
