@@ -37,7 +37,7 @@ body {
     rgba(191, 191, 191, 1) 0%,
     rgba(253, 254, 205, 1) 19%
   );
-  box-shadow: 37px 25px 27px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: -1px 6px 20px 7px #000000;
   transform: rotate(-5deg);
 }
 
@@ -67,7 +67,7 @@ body {
     rgba(191, 191, 191, 1) 0%,
     rgba(199, 246, 201, 1) 19%
   );
-  box-shadow: 37px 25px 27px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: -1px 6px 20px 7px #000000;
   transform: rotate(5deg);
 }
 
@@ -97,7 +97,7 @@ body {
     rgb(209, 208, 208) 0%,
     rgba(198, 198, 243, 1) 19%
   );
-  box-shadow: 37px 25px 27px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: -1px 6px 20px 7px #000000;
   transform: rotate(-8deg);
 }
 
@@ -127,7 +127,7 @@ body {
     rgba(191, 191, 191, 1) 0%,
     rgba(199, 246, 201, 1) 19%
   );
-  box-shadow: 37px 25px 27px -3px rgba(3, 3, 3, 0.1);
+  box-shadow: -1px 6px 20px 7px #000000;
   transform: rotate(5deg);
 }
 
