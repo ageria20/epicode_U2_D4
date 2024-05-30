@@ -11,8 +11,11 @@ body {
 
 .board {
   display: flex;
-  column-gap: 20px;
-  max-width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  max-width: 1200px;
   min-height: 50vh;
   padding: 2rem;
   background-color: rgb(128, 125, 125);
